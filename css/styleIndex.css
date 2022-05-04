@@ -1,0 +1,64 @@
+HEAD html {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 0 auto;
+    background-image: url("/imagen/fondo.jpg");
+    background-size: 100%;
+    background-size: cover;
+}
+
+section {
+    margin-bottom: -50px;
+    background-color: rgba(76, 139, 25, 0.2);
+    border-radius: 30px;
+}
+
+div h1 {
+    background-image: url("/imagen/banner.jpg");
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    border: 2px black solid;
+    text-align: center;
+    background-size: cover;
+}
+
+nav {
+    border-radius: 30px;
+    border: 2px black solid;
+    background-color: rgba(187, 122, 70, 0.671);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: xx-large;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+}
+
+.nav-item :hover {
+    color: black;
+    cursor: pointer;
+    margin: right 300px;
+    
+}
+.row {
+
+    padding: 10px;
+}
+
+div p {
+    background-color: rgba(243, 255, 243, 0.9);
+    border-radius: 30px;
+    border: 2px black solid;
+    text-align: center;
+}
+
+footer {
+
+    margin-top: 30px;
+
+    
+}
